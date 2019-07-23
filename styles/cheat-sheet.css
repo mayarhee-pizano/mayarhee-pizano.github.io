@@ -1,0 +1,21 @@
+/*cheat-sheet.css*/
+/*body is a selector to change the style of the body section on an HTML file*/
+body{
+	background: turquoise;/*background is a property to change the background color and turquoise is the property value*/
+	/*here there are 140 color names https://www.w3schools.com/colors_names.asp*/
+
+}
+
+/*heading is a class selector that can be applied to several elements on my html page*/
+/*when you use a class styles there is a dot(.) before the word*/
+.heading{
+	color: darkorchid;
+	/*color property is to change text color*/
+	}
+
+/*my_paragraph is an id selector that has stlying that applies only or one tag on my html. The tag should be the same as this selector with a # in front*/
+#my_paragraph {
+text-align: right;
+text-decoration: underline;
+font-weight: bold;
+}

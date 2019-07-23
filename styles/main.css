@@ -1,0 +1,41 @@
+/*main.css*/
+
+body {
+	background: lightblue;
+	font-family: 'Crimson Text', serif;
+
+}
+
+h1 {
+	color: rgb(26,77,161);
+}
+
+ol {
+	font-weight: bold;
+}
+a {
+	color:rgb(204, 37, 193);
+	text-decoration: none;
+}
+div{
+	border-style: dotted;
+	background-color:rgb(209,175,249);
+}
+#aboutme{
+	color: darkblue;
+	border-style: none;
+}
+#contactme{
+	color: darkblue;
+	border-style: none;
+}
+#me-pic{
+	text-align: center;
+	border-style: double;
+	background-color: none;
+}
+#fiona-pic{
+	text-align: center;
+	border-style: double;
+	background-color: none;
+}

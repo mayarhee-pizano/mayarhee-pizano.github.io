@@ -1,0 +1,131 @@
+<!--cheat-sheet.html-->
+<!--HTML Shell: html, head, body -->
+<!DOCTYPE html> <!--DOCTYPE is to let the browser knowthat we are using html-->
+<html><!--start of html document-->
+<head><!--start of head section:configuration-->
+	<title>Cheat Sheet</title><!--goes inside head section, title on the browser tab: goes inside head section-->
+
+<link rel="stylesheet" type="text/css" href="styles/cheat-sheet.css">
+<!--link brings all css styling from my css file into this html file,
+if the hyper reference is right then you should see the styling,
+href attribute has the name and path of the css file,
+if your css document is in a file for example in this case it was in the styles folder you must put styles/the name of the css document-->
+<!--style tag is to add internal styles-->
+<style type="text/css">
+/*margin properties always in pixels*/
+	div { 
+		margin-top: 100px;
+		margin-right: 150px;
+		margin-bottom: 50px;
+		margin-left: 200px;
+		background-color: rgb(234,190,35);
+		border-style: dotted;
+		border-radius: 10px;/*border radius is to curve corners to the div*/
+	}
+
+</style>
+
+</head><!--end of head section-->
+<body><!--start of body section:visable section of the page-->
+	<!--hx is for headings-->
+<!--h1 is using a class style (see css file)-->
+<h1 class="heading">Heading 1</h1><!--biggest heading-->
+<h2 class="heading">Heading 2</h2>
+<h3 class="heading">Heading 3</h3>
+<h4 class="heading">Heading 4</h4>
+<h5 class="heading">Heading 5</h5>
+<h6 class="heading">Heading 6</h6><!--smallest heading-->
+<!--paragraphs-->
+<p id="my_paragraph">This is a paragraph. Because I have no imagination i'll keep typing a lot of words to show this is a paragraph. </p>
+<p>This is another paragraph it is within the body tags.</p>
+<!--img for images: src attribute to point to the image, alt is the text to be displayed instead of the image, height to adjust the height of he image(pixels or px), width to adjust the width of the image(pixels or px)-->
+<img src="images/fiona.png" alt="Picture of Fiona" style="width: 300px; height: 300px"> <!--if image doesnt work save the image in the images folder then write images/the name of the image you saved-->
+
+<!--unordered list, looks like bullet points-->
+<ul type="disc">
+	<li>My candy</li><!--li(list element) for every element of the list -->
+	<li>Your candy</li>
+	<li>Our candy</li>
+</ul>
+
+<!--unordered list, looks like squares-->
+<ul type="square">
+	<li>My candy</li><!--li(list element) for every element of the list -->
+	<li>Your candy</li>
+	<li>Our candy</li>
+</ul>
+
+<ul type="circle">
+	<li>My candy</li><!--li(list element) for every element of the list -->
+	<li>Your candy</li>
+	<li>Our candy</li>
+</ul>
+
+<!--ordered list, type 1, numbers-->
+<ol type="1">
+	<li>First class</li>
+	<li>Second class</li>
+	<li>Third class</li>
+</ol>
+
+<!--ordered list, type A, capital letter-->
+<ol type="A">
+	<li>First class</li>
+	<li>Second class</li>
+	<li>Third class</li>
+</ol>
+
+<!--ordered list, type a, lower case letters-->
+<ol type="a">
+	<li>First class</li>
+	<li>Second class</li>
+	<li>Third class</li>
+</ol>
+<!--ordered list, type I, upper case roman numerals-->
+<ol type="I">
+	<li>First class</li>
+	<li>Second class</li>
+	<li>Third class</li>
+</ol>
+
+<!--ordered list, type i, lower case roman numerals-->
+<ol type="i">
+	<li>First class</li>
+	<li>Second class</li>
+	<li>Third class</li>
+</ol>
+
+<!--A list within a list-->
+<ol type="A">
+	<li>CS class
+		<ol>
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JS</li>
+		</ol>
+	</li>
+	<li>Math</li>	
+</ol>
+
+<!--a is for anchor(hyperlinks)-->
+<a href="https://www.youtube.com">Youtube</a> <!--absoluute hyperlink-->
+<br><!--line break-->
+<a href="cheat-sheet.html">My cheat sheet</a> <!--relative hyperlink-->
+
+<!--div is to indicate an area within the web page, is only seen in the code, not visable on the actual page-->
+<div>
+	<p>Another paragraph</p>
+	<ol type="A">
+	<li>Dogs
+		<ol>
+			<li>Austrailian Shepard</li>
+			<li>Golden Retriever</li>
+			<li>Corgie</li>
+		</ol>
+	</li>
+	<li>Dogs</li>	
+</ol>
+</div>
+
+</body><!--ending of body section-->
+</html><!--end of html document-->
