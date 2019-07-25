@@ -39,3 +39,16 @@ div{
 	border-style: double;
 	background-color: none;
 }
+#img-float{
+	float: left;
+	margin: 20px;
+}
+.p-class{
+	margin: 35px;
+	padding: 25px;
+
+}
+#div-float{
+	border: 5px dotted purple;
+	margin: 20px;
+}
